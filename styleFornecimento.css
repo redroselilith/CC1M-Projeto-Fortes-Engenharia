@@ -99,9 +99,10 @@ main>section {
     border: none;
     border-radius: 30px;
     color: white;
+    cursor:pointer;
 }
 
-#row2>button:active {
+#row2>button:hover {
     background-color: #c1202e;
 }
 

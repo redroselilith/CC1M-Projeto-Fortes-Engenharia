@@ -90,6 +90,10 @@ button {
     cursor:pointer;
 }
 
+button:hover {
+    background-color: #c1202e;
+}
+
 #forgotPass {
     color: #F24957;
     font-family: 'Poppins', sans-serif;
