@@ -9,12 +9,62 @@
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styleHomePage.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Página Inicial</title>
 </head>
 
 <body>
-    <h1 id="displayName"></h1>
+    <div class="menu">
+        <a href="homepage.html">
+            <i class="material-icons" id="arrow">arrow_back</i>
+        </a>
+        <i class="material-icons" id="menu">menu</i>
+    </div>
 
+    <div id="page">
+        <h1 id="displayName">Olá, <mark class="pink">Otávio</mark>!<br>
+            O que está buscando?</h1>
+
+        <div id="icons">
+            <div class="fornecimento">
+                <a href="fornecimento.html">
+                    <i class="material-icons" id="pencil">border_color</i>
+                </a>
+                <span id="fornecimento">Fornecimento</span>
+            </div>
+            <div class="programação">
+                <a href="programação.html">
+                    <i class="material-icons" id="calendar">event_note</i>
+                </a>
+                <span id="programação">Programação</span>
+            </div>
+            <div class="consumos">
+                <a href="consumos.html">
+                    <i class="material-icons" id="graph">insert_chart</i>
+                </a>
+                <span id="consumos">Consumos</span>
+            </div>
+            <div class="relatórios">
+                <a href="relatórios.html">
+                    <i class="material-icons" id="file">description</i>
+                </a>
+                <span id="relatórios">Relatórios</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Fortes Engenharia</h3>
+        <div id="footer">
+            <h3 id="fc">Fale conosco: </h3>
+            <a href="#">
+                <i class="material-icons" id="whatsapp">chat_bubble</i>
+            </a>
+            <a href="#">
+                <i class="material-icons" id="phone">call</i>
+            </a>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

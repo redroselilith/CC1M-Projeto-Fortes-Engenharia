@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu {
+    background-color: #fafafa;
+    display: flex;
+    width: 80%;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#arrow {
+    color: black;
+    font-size:40px;
+}
+
+#menu {
+    color: #F24957;
+    font-size:40px;
+}
+
+#page {
+    background-color: #fafafa;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid #F24957;
+    border-radius: 30px;
+}
+
+mark.pink {
+    color:#F24957;
+    background: none;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#icons {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fornecimento, .programação, .consumos, .relatórios {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+#pencil, #calendar, #graph, #file {
+    color: #F24957;
+    font-size:100px;
+}
+
+span {
+    width: 200px;
+    font-size: 18px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer {
+    color: #83388C;
+    margin-top: 3%;
+    height: 7%;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1%;
+    box-shadow: 5px 5px 20px rgb(207, 207, 207);
+}
+
+#footer {
+    color: #000;
+    width: 17%;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#whatsapp, #phone {
+    color: #83388C;
+}
+
+#fc {
+    font-size: 18px;
+    font-weight: lighter;
+}
