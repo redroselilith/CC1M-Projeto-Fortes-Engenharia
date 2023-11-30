@@ -1,6 +1,11 @@
 if (window.location.pathname === '/index.html') {
-    alert('Digite o nome no campo "nome" e deixe a senha em branco! :)')
+    window.addEventListener('load', function() {
+        alert('Digite o nome no campo "nome" e deixe a senha em branco! :)');
+    });
+    
 }
+
+
 
 function salvarNomeUsuario(nomeUsuario) {   
 
