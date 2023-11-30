@@ -8,7 +8,7 @@ function adjustFontSize() {
     const maxHeight = containerHeight * 0.9;
 
     // Tamanho inicial da fonte. Nao usar número quebrado.
-    let fontSize = 48;
+    let fontSize = 42;
     fontSize = parseInt(fontSize);
     let textFits = false;
 
