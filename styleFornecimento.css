@@ -123,6 +123,8 @@ input[type="radio"] {
     border: 2px solid #F24957;
     border-radius: 50%;
     background-clip: content-box;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 input[type="radio"]:checked {
