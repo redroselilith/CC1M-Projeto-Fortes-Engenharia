@@ -2,18 +2,17 @@ if (window.location.pathname === '/index.html') {
     alert('Digite o nome no campo "nome" e deixe a senha em branco! :)')
 }
 
-function salvarNomeUsuario(nomeUsuario) {
-    var inputElement = document.getElementById('name');
+function salvarNomeUsuario(nomeUsuario) {   
 
     // Get the value entered by the user
-    var inputValue = inputElement.value;
-    localStorage.setItem('nomeUsuario', inputValue);
+    var nomeUsuario = document.getElementById('name').value;
+    localStorage.setItem('nomeUsuario', nomeUsuario);
 }
 
 function obterNomeUsuario() {
     var nomeUsuario = localStorage.getItem('nomeUsuario') ?? '';
 
     var displayNameElement = document.getElementById('displayName');
-    displayNameElement.innerHTML = 'Olá, ' + nomeUsuario + '! <br/> O que você está buscando?';
+    displayNameElement.innerHTML = 'Olá, <span style="color:red">' + nomeUsuario + '</span>! <br/> O que você está buscando?';
 }
 

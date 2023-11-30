@@ -78,7 +78,7 @@ h1 {
     font-size:100px;
 }
 
-span {
+.icontext {
     width: 200px;
     font-size: 18px;
     display: flex;
