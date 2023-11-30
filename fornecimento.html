@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styleFornecimento.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Página Inicial</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <i class="material-icons" id="arrow">arrow_back</i>
+        </a>
+        <i class="material-icons" id="menu">menu</i>
+    </header>
+
+    <main>
+        <h1>Fornecimento</h1>
+        <section>
+            <div id="row1">
+                <div id="fornecedor">
+                    <p>Selecione o fornecedor</p>
+                </div>
+                <div id="refeição">
+                    <p>Selecione a refeição</p>
+                    <div>
+                        <input type="radio" id="cafe" name="refeicao" value="cafe">
+                        <label class="pequena" for="cafe">Café da Manhã</label><br>
+                        <input type="radio" id="almoco" name="refeicao" value="almoco">
+                        <label class="pequena" for="almoco">Almoço</label><br>
+                        <input type="radio" id="jantar" name="refeicao" value="jantar">
+                        <label class="pequena" for="jantar">Jantar</label>
+                    </div>
+                </div>
+                <div id="data">
+                    <p>Selecione a data</p>
+                </div>
+            </div>
+
+            <div id="row2">
+                <div id="obra">
+                    <p>Selecione a obra</p>
+                </div>
+                <button class="paragrafo" id="enviar">Enviar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Fortes Engenharia</h3>
+        <div id="footer">
+            <h3 id="fc">Fale conosco: </h3>
+            <a href="#">
+                <i class="material-icons" id="whatsapp">chat_bubble</i>
+            </a>
+            <a href="#">
+                <i class="material-icons" id="phone">call</i>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

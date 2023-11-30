@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: #fafafa;
+    display: flex;
+    width: 80%;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#arrow {
+    color: black;
+    font-size: 40px;
+}
+
+#menu {
+    color: #F24957;
+    font-size: 40px;
+}
+
+main {
+    background-color: #fafafa;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid #F24957;
+    border-radius: 30px;
+}
+
+.pequena {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p,
+.paragrafo {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 47.78px;
+}
+
+main>section {
+    width: 80%;
+    height: 60%;
+    border-radius: 30px;
+    background-color: #f2e085;
+    display: flex;
+    flex-direction: column;
+}
+
+#row1,
+#row2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#row1>div,
+#row2>div {
+    width: 25%;
+    height: 20%;
+}
+
+#row2>button {
+    width: 10%;
+    height: 15%;
+    margin-top: 10%;
+    margin-right: 5%;
+    background-color: #F24957;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+#row2>button:active {
+    background-color: #c1202e;
+}
+
+#refeição {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#refeição div {
+    margin-top: 5%;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    padding: 2px;
+    height: 20px;
+    border: 2px solid #F24957;
+    border-radius: 50%;
+    background-clip: content-box;
+}
+
+input[type="radio"]:checked {
+    background-color: #F24957;
+}
+
+#refeição div {
+    text-align: left;
+}
+
+footer {
+    color: #83388C;
+    margin-top: 3%;
+    height: 7%;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1%;
+    box-shadow: 5px 5px 20px rgb(207, 207, 207);
+}
+
+#footer {
+    color: #000;
+    width: 17%;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#whatsapp,
+#phone {
+    color: #83388C;
+}
+
+#fc {
+    font-size: 18px;
+    font-weight: lighter;
+}
