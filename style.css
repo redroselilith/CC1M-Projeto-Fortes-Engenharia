@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    /* outline: solid red 1px; */
 }
 
 body {
@@ -30,13 +31,15 @@ body {
     align-items: center;
     width: 70%;
     height: 8%;
+    
 }
 
 #title h1 {
     font-family: 'Fredoka', sans-serif;
-    font-size: 48.83px;
+    font-size: 48.83px;    
     text-transform: uppercase;
     color: #F24957;
+    
 }
 
 #login-background {
