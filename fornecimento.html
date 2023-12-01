@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <a href="#" onclick="goBack()">
+        <a href="homepage.html">
             <i class="material-icons" id="arrow">arrow_back</i>
         </a>
         <i class="material-icons" id="menu">menu</i>
@@ -29,13 +29,19 @@
             <div id="row1">
                 <div id="fornecedor">
                     <p>Selecione o fornecedor</p>
-                    <div class="dropbtn">
-                        <div>
-                            <p class="pequena">Fornecedor</p>
-                        </div>
-                        <button>
+                    <div class="dropdown">
+                        <div class="dropdown-button">
+                            <p id="fornecedor-selecionado" class="pequena">Fornecedor</p>
                             <span class="material-symbols-outlined">arrow_drop_down</span>
-                        </button>
+                            <div id="fncdr-drpd" class="dropdown-content">
+                                <button onclick="setar('fornecedor-selecionado', 'XPTO Serviços Alimentícios', 'fncdr-drpd')">
+                                    <p class="pequena">XPTO Serviços Alimentícios</p>
+                                </button>
+                                <button  onclick="setar('fornecedor-selecionado', 'COPAL Alimentos', 'fncdr-drpd')">
+                                    <p class="pequena">COPAL Alimentos</p>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id="refeição">
@@ -52,10 +58,8 @@
                 <div id="data">
                     <p>Data de fornecimento</p>
                     <div>
-                        <button>
-                            <p class="pequena">01/01/2023</p>
-                        </button>
-                            <span class="material-symbols-outlined">today</span>
+                        <input type="date" id="data-forn" name="data-forn">
+                        <span class="material-symbols-outlined">today</span>
                     </div>
                 </div>
             </div>
@@ -63,16 +67,22 @@
             <div id="row2">
                 <div id="obra">
                     <p>Selecione a obra</p>
-                    <div class="dropbtn">
-                        <div>
-                            <p class="pequena">Obra</p>
-                        </div>
-                        <button>
+                    <div class="dropdown">
+                        <div class="dropdown-button">
+                            <p id="obra-selecionada" class="pequena">Obra</p>
                             <span class="material-symbols-outlined">arrow_drop_down</span>
-                        </button>
+                            <div id="obra-drpd" class="dropdown-content">
+                                <button onclick="setar('obra-selecionada', 'Aracruz-ES', 'obra-drpd')">
+                                    <p class="pequena">Aracruz-ES</p>
+                                </button>
+                                <button onclick="setar('obra-selecionada', 'Serra-ES', 'obra-drpd')">
+                                    <p class="pequena">Serra-ES</p>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <button class="pequena" id="enviar">Enviar</button>
+                <button class="pequena" id="enviar" onclick="enviar()">Enviar</button>
             </div>
         </section>
     </main>
@@ -90,7 +100,7 @@
         </div>
     </footer>
 
-    <script src="goBack.js"></script>
+    <script src="fornecimento.js"></script>
 
 </body>
 
