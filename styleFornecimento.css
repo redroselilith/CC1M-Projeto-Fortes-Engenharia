@@ -80,60 +80,120 @@ main>section {
     height: 50%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
 }
 
 #row1>div,
 #row2>div {
+    margin-top: 5%;
     width: 25%;
-    height: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #row2>button {
-    width: 10%;
-    height: 15%;
     margin-top: 10%;
     margin-right: 5%;
+    width: 10%;
+    height: 15%;
     background-color: #F24957;
     border: none;
     border-radius: 30px;
     color: white;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #row2>button:hover {
     background-color: #c1202e;
 }
 
-#refeição {
+.dropbtn {
+    margin-top: 5%;
+    color: white;
+    background-color: #F24957;
+    height: 18%;
+    width: 60%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.dropbtn div {
+    margin-left: 7%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-#refeição div {
-    margin-top: 5%;
+.dropbtn button {
+    color: white;
+    background-color: #F24957;
+    border: 3px solid #f2e085;
+    border-radius: 45%;
+    cursor: pointer;
+    height: 117%;
+    width: 30%;
+}
+
+.dropbtn button:hover {
+    background-color: #c1202e;
 }
 
 input[type="radio"] {
+    margin-top: 10%;
     appearance: none;
     width: 20px;
-    padding: 2px;
+    padding: 3px;
     height: 20px;
     border: 2px solid #F24957;
     border-radius: 50%;
     background-clip: content-box;
-    vertical-align: middle;
+    vertical-align: bottom;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 input[type="radio"]:checked {
     background-color: #F24957;
 }
 
-#refeição div {
+input[type="radio"]:hover {
+    border: 2px solid #c1202e;
+}
+
+#refeição div label {
+    margin-top: 10%;
     text-align: left;
+}
+
+#data>div {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#data>div button {
+    cursor: pointer;
+    width: 50%;
+    background-color: #F24957;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    text-align: center;
+}
+
+#data>div button:hover {
+    background-color: #c1202e;
+}
+
+#data>div span {
+    background-color: transparent;
+    color: #F24957;
+    font-size: 38px;
 }
 
 footer {
@@ -168,4 +228,12 @@ footer {
 #fc {
     font-size: 18px;
     font-weight: lighter;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }

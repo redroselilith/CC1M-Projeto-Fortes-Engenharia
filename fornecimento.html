@@ -10,6 +10,8 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styleFornecimento.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Página Inicial</title>
 </head>
 
@@ -27,6 +29,14 @@
             <div id="row1">
                 <div id="fornecedor">
                     <p>Selecione o fornecedor</p>
+                    <div class="dropbtn">
+                        <div>
+                            <p class="pequena">Fornecedor</p>
+                        </div>
+                        <button>
+                            <span class="material-symbols-outlined">arrow_drop_down</span>
+                        </button>
+                    </div>
                 </div>
                 <div id="refeição">
                     <p>Selecione a refeição</p>
@@ -40,15 +50,29 @@
                     </div>
                 </div>
                 <div id="data">
-                    <p>Selecione a data</p>
+                    <p>Data de fornecimento</p>
+                    <div>
+                        <button>
+                            <p class="pequena">01/01/2023</p>
+                        </button>
+                            <span class="material-symbols-outlined">today</span>
+                    </div>
                 </div>
             </div>
 
             <div id="row2">
                 <div id="obra">
                     <p>Selecione a obra</p>
+                    <div class="dropbtn">
+                        <div>
+                            <p class="pequena">Obra</p>
+                        </div>
+                        <button>
+                            <span class="material-symbols-outlined">arrow_drop_down</span>
+                        </button>
+                    </div>
                 </div>
-                <button class="paragrafo" id="enviar">Enviar</button>
+                <button class="pequena" id="enviar">Enviar</button>
             </div>
         </section>
     </main>
@@ -65,7 +89,7 @@
             </a>
         </div>
     </footer>
-    
+
     <script src="goBack.js"></script>
 
 </body>
